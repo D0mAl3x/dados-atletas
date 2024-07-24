@@ -87,7 +87,7 @@ class Atleta{
     }
 
     extraiNotasValidas(notasOrdenadas) {                                           // utilizamos o método .slice()
-        let notasValidas = notasOrdenadas.slice(1,this.obtemNotasAtleta.length-1); // para obter um sub-array contendo
+        let notasValidas = notasOrdenadas.slice(1,this.obtemNotasAtleta().length-1); // para obter um sub-array contendo
         return notasValidas;                                                       // apenas as notas válidas. No seu
     }                                                                              // segundo argumento consultamos o
                                                                                 // tamanho do array de notas (atributo
